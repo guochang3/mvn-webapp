@@ -17,5 +17,6 @@ public class TestServlet extends HttpServlet
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
     {
         resp.getWriter().write("test!!!");
+        resp.getWriter().write("test!!!");
     }
 }
